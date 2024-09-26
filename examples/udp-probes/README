@@ -14,14 +14,14 @@ $ zmap -M udp -p 137 --probe-args=file:examples/udp-probes/netbios_137.pkt
 PROBES:
 -----
 
-ard_3282.pkt
-bacnet_47808.pkt
-bacnet_rpm_47808.pkt
-blank_space.pkt
-chargen_19.pkt
+ard_3282.pkt            This probe triggers a response from Apple Remote Desktop services on UDP port 3282
+bacnet_47808.pkt        This probe triggers a response from Building Automation and Control Networks services on UDP port 47808
+bacnet_rpm_47808.pkt    
+blank_space.pkt         This probe consists of a whitespace.
+chargen_19.pkt          This probe triggers a response from Character Generator Protocol services on UDP port 19
 citrix_1604.pkt         This probe triggers a response from Citrix application discovery services on UDP port 1604
 coap_5683.pkt           This probe triggers a response from COAP services on UDP port 5683
-db2_523.pkt
+db2_523.pkt             This probe triggers a response from IBM DB2 services on UDP port 523.
 db2disco_523.pkt        This probe triggers a response from IBM DB2 discovery services on UDP port 523
 digi1_2362.pkt          This probe triggers a response from Digi ADDP discovery services on UDP port 2362 (default magic)
 digi2_2362.pkt          This probe triggers a response from Digi ADDP discovery services on UDP port 2362 (devkit magic)
@@ -49,7 +49,7 @@ pcanywhere_5632.pkt
 portmap_111.pkt         This probe triggers a response from SunRPC portmapper services on UDP port 111
 qotd_17.pkt
 rdp_3389.pkt
-ripv1_520.pkt       	This probe triggers a response from the RIPv1 enabled routers/devices on UDP port 520
+ripv1_520.pkt       	  This probe triggers a response from the RIPv1 enabled routers/devices on UDP port 520
 sentinel_5093.pkt       This probe triggers a response from the Sentinel license manager service on UDP port 5093
 sip_5060.pkt
 sip_options.tpl
